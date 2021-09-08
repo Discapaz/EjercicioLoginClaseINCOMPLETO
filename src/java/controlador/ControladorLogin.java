@@ -55,6 +55,7 @@ public class ControladorLogin extends HttpServlet {
                 
             } catch (Exception ex) {
                 response.sendRedirect("./jsp/error.jsp");
+                System.out.println("Error en conexion");
             }
             
         }
